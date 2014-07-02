@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LayoutTestGFG</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_login">Login</string>
+    <string name="title_signup">Sign up</string>
+    <string name="title_reset_password">Reset password</string>
+
+</resources>
