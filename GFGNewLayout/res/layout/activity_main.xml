@@ -1,0 +1,150 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp" >
+                    
+	                <ImageView
+	                    android:id="@+id/imageView1"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/main2_03"
+	                	android:layout_marginTop="8dp"
+	                    android:layout_marginLeft="233dp"/>
+	
+	                <ImageButton
+	                    android:id="@+id/imageButton1"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="82dp"
+	                    android:background="@drawable/menuselect" />
+	            
+	            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="98dp" >
+
+                    <Button
+                        android:id="@+id/imageButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="58dp"
+                        android:background="@android:color/transparent"
+                        android:drawableTop="@drawable/m1select"
+                        android:focusableInTouchMode="false"
+                        android:text="@string/menu1"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/imageButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/m2select"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/menu2"
+                        android:textColor="#FFFFFF"
+                        android:background="@android:color/transparent"   />
+
+                    <Button
+                        android:id="@+id/imageButton4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/m3select"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/menu3" 
+                        android:textColor="#FFFFFF"
+                        android:background="@android:color/transparent"  />
+
+                </LinearLayout>
+                
+            	<LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp" >
+
+                    <Button
+                        android:id="@+id/imageButton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/m4select"
+                        android:layout_marginLeft="58dp"
+                        android:text="@string/menu4"
+                        android:textColor="#FFFFFF" 
+                        android:background="@android:color/transparent"  />
+
+                    <Button
+                        android:id="@+id/imageButton6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/m5select"
+                        android:layout_marginLeft="40dp" 
+                        android:text="@string/menu5"
+						android:textColor="#FFFFFF"
+						android:background="@android:color/transparent" />
+
+                    <Button
+                        android:id="@+id/imageButton7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/m6select"
+                        android:layout_marginLeft="40dp" 
+                        android:text="@string/menu6" 
+                        android:textColor="#FFFFFF"
+                        android:background="@android:color/transparent" />
+
+                </LinearLayout>
+
+            	<LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp" >
+
+                    <Button
+                        android:id="@+id/imageButton8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/m7select"
+                        android:layout_marginLeft="58dp" 
+                        android:text="@string/menu7" 
+                        android:textColor="#FFFFFF"
+                        android:background="@android:color/transparent" />
+
+                    <Button
+                        android:id="@+id/imageButton9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/m8select"
+                        android:layout_marginLeft="40dp" 
+                        android:text="@string/menu8" 
+                        android:textColor="#FFFFFF"
+                        android:background="@android:color/transparent" />
+
+                    <Button
+                        android:id="@+id/imageButton10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/m9select"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/menu9"
+						android:textColor="#FFFFFF"
+						android:background="@android:color/transparent"  />
+
+                </LinearLayout>
+ 
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
