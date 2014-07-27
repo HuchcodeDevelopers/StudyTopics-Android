@@ -16,9 +16,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
-public class MainActivity extends ActionBarActivity {
+
+public class LoginSampleActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        new HttpRequestTask().execute();
+        new HttpLoginRequestTask().execute();
     }	
 	
 	@Override
@@ -79,7 +79,7 @@ public class MainActivity extends ActionBarActivity {
 	}
 	
 
-    private class HttpRequestTask extends AsyncTask<Void, Void, Employee> {
+    private class HttpLoginRequestTask extends AsyncTask<Void, Void, Employee> {
 		@Override
         protected Employee doInBackground(Void... params) {
 			/* In the case of post */
@@ -87,12 +87,12 @@ public class MainActivity extends ActionBarActivity {
 	        vars.put("username", "gikimiad@gmail.com");
 	        vars.put("password", "PASSWORD_FOR_PARKYONGGYU");
 
-            final String url = "http://192.168.0.215:5000/";
+            //final String url = "http://192.168.0.215:5000/";
             try {
                 //final String url = "http://192.168.1.103:8080/SpringRestExample/rest/emp/dummy";
                 //final String url = "http://10.0.1.6:8080/SpringRestExample/rest/emp/dummy";
                 //final String url = "http://192.168.0.215:5000/login";
-                //final String url = "http://192.168.0.215:5000/login";
+                final String url = "http://192.168.0.215:5000/login";
                 RestTemplate restTemplate = new RestTemplate();                
                 restTemplate.getMessageConverters().add(new MappingJacksonHttpMessageConverter());
                 //return restTemplate.getForObject(url, Employee.class);
